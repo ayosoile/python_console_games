@@ -13,12 +13,12 @@ cpt_text = pyfiglet.figlet_format("GAME HUB",
                                   font="standard",
                                   justify="center")
 
-print(colored(cpt_text, 'red'))
+print(colored(cpt_text, 'blue'))
 
 cpt_text_name = pyfiglet.figlet_format("By Ayo", font="standard", justify="center", width=50, )
 
 print(colored(cpt_text_name, 'blue'))
-time.sleep(2)
+time.sleep(3)
 
 #Human verification - Checks if user enters correct password, else crashes program if they fail twice
 print("\u001b[1m"
