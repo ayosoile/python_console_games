@@ -7,6 +7,7 @@ from guess import guess
 
 from termcolor import colored
 
+print("Hello, welcome to the Game Hub!")
 #Specialized text
 cpt_text = pyfiglet.figlet_format("GAME HUB",
                                   font="standard",
